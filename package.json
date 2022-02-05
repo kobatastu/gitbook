@@ -1,0 +1,19 @@
+{
+  "name": "gitbook_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobatastu/gitbook_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kobatastu/gitbook_test/issues"
+  },
+  "homepage": "https://github.com/kobatastu/gitbook_test#readme"
+}
