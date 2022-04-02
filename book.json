@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    "intopic-toc",
+    "hide-published-with",
+    "collapsible-chapters"
+  ]
+}
