@@ -1,0 +1,6 @@
+# ignore self
+.bookignore
+
+.node-version
+.github
+.gitignore

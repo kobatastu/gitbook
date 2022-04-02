@@ -158,7 +158,19 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gitbooktest">gitbook_test</h1>
+                                <h1 id="gitbook">gitbook</h1>
+<h2 id="&#x74B0;&#x5883;&#x69CB;&#x7BC9;">&#x74B0;&#x5883;&#x69CB;&#x7BC9;</h2>
+<pre><code class="lang-sh">npm i -g gitbook-cli
+gitbook install
+</code></pre>
+<h2 id="&#x52D5;&#x4F5C;&#x74B0;&#x5883;">&#x52D5;&#x4F5C;&#x74B0;&#x5883;</h2>
+<p>&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3068;&#x3001;_book&#x306B;build&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x304C;&#x4F5C;&#x6210;&#x3055;&#x308C;&#x3001;<a href="http://localhost:4000" target="_blank">http://localhost:4000</a> &#x304B;&#x3089;&#x78BA;&#x8A8D;&#x3067;&#x304D;&#x308B;</p>
+<pre><code class="lang-sh">gitbook serve
+</code></pre>
+<h2 id="&#x5909;&#x66F4;&#x306E;&#x53CD;&#x6620;">&#x5909;&#x66F4;&#x306E;&#x53CD;&#x6620;</h2>
+<p>&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x3068;&#x3001;docs&#x306B;build&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x304C;&#x4F5C;&#x6210;&#x3055;&#x308C;&#x308B;&#x306E;&#x3067;&#x3001;build&#x3057;&#x305F;&#x3082;&#x306E;&#x3092;master&#x306B;push&#x3059;&#x308B;</p>
+<pre><code class="lang-sh">gitbook build . docs
+</code></pre>
 
                                 
                                 </section>
@@ -198,7 +210,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Test","level":"1.2","depth":1,"path":"markdown/test.md","ref":"markdown/test.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2022-02-05T15:30:42.245Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-02-05T15:42:45.041Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Test","level":"1.2","depth":1,"path":"markdown/test.md","ref":"markdown/test.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2022-04-02T01:13:00.413Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-02T01:13:06.621Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -206,10 +218,6 @@
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
-    
-        
-        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
